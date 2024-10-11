@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Калькулятор стоимости заказа</h1>
+        <div class="a">
+            <label for="kol">
+                Введите количество: 
+            </label>
+            <input type="number" class="kol" name="kol" id="kol" value="">
+        </div>
+        <div class="a">
+            <label for="good">
+                Выберите букет:
+            </label>
+            <select name="good" id="good" class="good">
+                <option value="7861">Розы красные(101 шт.) - 7 861 руб.</option>
+                <option value="1903">Роза розовая кустовая(3 шт) - 1 903 руб.</option>
+                <option value="1300">Хризантемы белые(7 шт.) - 1 300 руб.</option>
+                <option value="2208">Гипсофилы разноцветные(11 веток) - 2 208 руб.</option>
+                <option value="2148">Пионы розовые(3 шт.) - 2 148 руб.</option>
+                <option value="1371">Гортензии розовые(4 ветки) - 1 371 руб.</option>
+                <option value="2724">Лилии белые(5 шт.) - 2 724 руб.</option>
+                <option value="2009">Подсолнухи(4 шт.) - 2 009 руб.</option>
+                <option value="5500">Сборный авторский букет - 5 500 руб.</option>
+            </select>
+        </div>
+        <div class="but">
+            <button id="ug" class="ug">
+                Рассчитать
+            </button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
